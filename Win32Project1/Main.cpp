@@ -1127,7 +1127,8 @@ signed int __stdcall hkPresent(IDXGISwapChain* pSwapchain, UINT SyncInterval, UI
 	}__except(1){
 
 	}
-	
+
+
 	GameTimer->Present();
 	return oPresent(pSwapchain,SyncInterval,Flags);
 }

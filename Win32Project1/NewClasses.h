@@ -1779,7 +1779,7 @@ public:
 	virtual void function();
 	virtual eastl::vector<ClientPlayer*>* getPlayers();
 	virtual eastl::vector<ClientPlayer*>* getSpectators();
-	BYTE pad00[0x298];                  // 0x00 //was 2a0
+	BYTE pad00[0x538];                  // 0x00 //was 0x298 //was 2a0
 	ClientPlayer*    m_pLocalPlayer;        // 0x2A0
 	ClientPlayer**    m_ppPlayers;        // 0x2A8
 
